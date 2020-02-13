@@ -34,7 +34,7 @@
 .topic-list,
 .latest-topic-list {
   @include boxShadow;
-  background-color: lighten($secondary, 10%);
+  background-color: lighten($secondary, 50%);
 }
 
 //underline navigation links
@@ -263,4 +263,13 @@
       right: -40% !important;
     }
   }
+}
+
+.footer-message.ember-view h3 {
+  font-weight: 400;
+}
+
+.btn-primary {
+  font-weight: 400;
+  color: #141414;
 }
