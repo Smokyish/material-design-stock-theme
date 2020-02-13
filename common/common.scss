@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,400i,600,700&display=swap');
 //use Roboto font
 html {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-weight: 400;
 }
 
@@ -8,7 +9,7 @@ body input,
 body button,
 body select,
 body textarea {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 @mixin boxShadow {

@@ -62,6 +62,18 @@
       "danger": "e45735",
       "success": "009900",
       "love": "fa6c8d"
+    },
+    "Trustlines Dark": {
+      "primary": "fafafa",
+      "secondary": "323232",
+      "tertiary": "F05A55",
+      "quaternary": "F05A55",
+      "header_background": "141414",
+      "header_primary": "ffffff",
+      "highlight": "fafafa",
+      "danger": "e45735",
+      "success": "009900",
+      "love": "fa6c8d"
     }
   }
 }
