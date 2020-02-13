@@ -274,6 +274,14 @@
   color: #141414;
 }
 
-.list-cell, .table-heading, .category-list td, .category-list th {
+.list-cell, .table-heading, .category-list td, .category-list th, .latest-topic-list .table-heading, .top-topic-list .table-heading, table th {
   color: $primary;
+}
+
+tr {
+  border-bottom: 25px solid #323232;
+}
+
+.latest-topic-list-item {
+  border-top: 22px solid #323232;
 }
