@@ -24,12 +24,17 @@ body textarea {
   @include boxShadow;
   background-color: rgba(255, 255, 255, 0);
   border: 2px solid $primary;
-  padding: 17px 50px;
+  padding: 15px 20px;
   font-weight: 700;
   outline: none;
-  min-height: 40px;
-  line-height: normal;
   width: auto;
+  color: $primary;
+}
+
+.btn:hover {
+  border: 2px solid $tertiary;
+  color: $tertiary;
+  background-color: rgba(255, 255, 255, 0);
 }
 //remove shadow from a few buttons
 
