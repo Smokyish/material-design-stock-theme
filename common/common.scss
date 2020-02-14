@@ -45,8 +45,9 @@ body textarea {
   color: $primary;
 }
 
-.btn .d-icon:hover {
-  color: lighten($secondary, 60%);
+.discourse-no-touch .btn:hover svg, .discourse-no-touch .btn.btn-hover svg {
+  color: #fff;
+  fill: #fff;
 }
 
 //remove shadow from a few buttons
