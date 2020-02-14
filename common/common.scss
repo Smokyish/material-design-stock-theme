@@ -37,6 +37,18 @@ body textarea {
   background-color: rgba(255, 255, 255, 0);
 }
 
+.btn-primary .d-icon {
+  color: $primary;
+}
+
+.discourse-no-touch .btn-primary:hover .d-icon, .discourse-no-touch .btn-primary.btn-hover .d-icon {
+  color: $primary;
+}
+
+.btn .d-icon:hover {
+  color: lighten($secondary, 60%);
+}
+
 //remove shadow from a few buttons
 
 #login-link,

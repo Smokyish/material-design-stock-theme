@@ -298,10 +298,6 @@ h2.x-title {
   font-weight: 300;
 }
 
-.discourse-no-touch .btn-primary:hover .d-icon, .discourse-no-touch .btn-primary.btn-hover .d-icon {
-  color: $primary;
-}
-
 .admin-customize .themes-list-header .tab {
   font-weight: 400;
   padding: 0.5em;
@@ -312,8 +308,4 @@ h2.x-title {
   border: 2px solid $tertiary;
   color: $tertiary;
   background-color: rgba(255, 255, 255, 0);
-}
-
-.btn .d-icon:hover {
-  color: lighten($secondary, 60%);
 }
