@@ -22,8 +22,9 @@ body textarea {
 
 //raise and round buttons
 .btn {
-  border-radius: 2px;
+  border-radius: 50px;
   @include boxShadow;
+  background-color: rgba(255, 255, 255, 0);
 }
 
 //remove shadow from a few buttons

@@ -285,3 +285,19 @@ tr {
 .latest-topic-list-item {
   border-top: 22px solid #323232;
 }
+
+.banner-box h1, .banner-box h2, .banner-box h3 {
+  color: $primary;
+}
+
+h2.x-title {
+  font-size: 3em;
+}
+
+.banner-box .section-header .description p {
+  width: 700px;
+}
+
+.banner-box .row .single-box .icon {
+  color: #fff;
+}
