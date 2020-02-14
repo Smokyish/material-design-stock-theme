@@ -50,6 +50,10 @@ body textarea {
   fill: #fff;
 }
 
+.bootbox.modal .modal-footer a.btn-primary {
+  color: $primary;
+}
+
 //remove shadow from a few buttons
 
 #login-link,
