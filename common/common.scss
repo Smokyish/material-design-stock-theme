@@ -37,12 +37,6 @@ body textarea {
   background-color: rgba(255, 255, 255, 0);
 }
 
-.discourse-no-touch .btn:hover, .discourse-no-touch .btn.btn-hover {
-  border: 2px solid $tertiary;
-  color: $tertiary;
-  background-color: rgba(255, 255, 255, 0);
-}
-
 //remove shadow from a few buttons
 
 #login-link,
