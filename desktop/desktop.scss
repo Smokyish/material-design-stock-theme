@@ -313,3 +313,7 @@ h2.x-title {
   color: $tertiary;
   background-color: rgba(255, 255, 255, 0);
 }
+
+.btn .d-icon:hover {
+  color: lighten($primary, -20%);
+}
