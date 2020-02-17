@@ -24,7 +24,7 @@ body textarea {
   @include boxShadow;
   background-color: rgba(255, 255, 255, 0);
   border: 2px solid $primary;
-  padding: 10px 10px;
+  padding: 10px;
   font-weight: 700;
   outline: none;
   width: auto;
@@ -41,11 +41,13 @@ body textarea {
   color: $primary;
 }
 
-.discourse-no-touch .btn-primary:hover .d-icon, .discourse-no-touch .btn-primary.btn-hover .d-icon {
+.discourse-no-touch .btn-primary.btn-hover .d-icon,
+.discourse-no-touch .btn-primary:hover .d-icon {
   color: $primary;
 }
 
-.discourse-no-touch .btn:hover svg, .discourse-no-touch .btn.btn-hover svg {
+.discourse-no-touch .btn.btn-hover svg,
+.discourse-no-touch .btn:hover svg {
   color: #fff;
   fill: #fff;
 }
@@ -53,9 +55,7 @@ body textarea {
 .bootbox.modal .modal-footer a.btn-primary {
   color: $primary;
 }
-
 //remove shadow from a few buttons
-
 #login-link,
 #new-account-link,
 #revision .btn,
@@ -69,6 +69,17 @@ body textarea {
   box-shadow: none;
 }
 
-.category-network #banner-content_wrap {
+.category-network #banner-content_wrap,
+.category-network-announcements #banner-content_wrap,
+.category-network-events #banner-content_wrap,
+.category-network-ppm #banner-content_wrap,
+.category-protocol #banner-content_wrap,
+.category-protocol-clientlib #banner-content_wrap,
+.category-protocol-relay #banner-content_wrap,
+.category-protocol-releases #banner-content_wrap,
+.category-protocol-tlbc #banner-content_wrap,
+.category-protocol-validators #banner-content_wrap,
+.category-site-feedback #banner-content_wrap,
+.category-uncategorized #banner-content_wrap {
   display: none;
 }
