@@ -69,17 +69,10 @@ body textarea {
   box-shadow: none;
 }
 
-.category-network #banner-content_wrap,
-.category-network-announcements #banner-content_wrap,
-.category-network-events #banner-content_wrap,
-.category-network-ppm #banner-content_wrap,
-.category-protocol #banner-content_wrap,
-.category-protocol-clientlib #banner-content_wrap,
-.category-protocol-relay #banner-content_wrap,
-.category-protocol-releases #banner-content_wrap,
-.category-protocol-tlbc #banner-content_wrap,
-.category-protocol-validators #banner-content_wrap,
-.category-site-feedback #banner-content_wrap,
-.category-uncategorized #banner-content_wrap {
+#banner-content_wrap {
   display: none;
+}
+
+.categories-list #banner-content_wrap {
+  display: block;
 }
