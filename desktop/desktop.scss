@@ -283,7 +283,8 @@ tr {
 }
 
 .latest-topic-list-item {
-  border-top: 22px solid $secondary;
+  background-color: lighten($secondary, 10%);
+  margin-top: 20px;
 }
 
 .admin-customize .themes-list-header .tab:last-child {
@@ -318,4 +319,8 @@ blockquote {
 table {
     border-collapse: separate;
     border-spacing: 0 25px;
+}
+
+.latest-topic-list .table-heading, .top-topic-list .table-heading {
+  margin-top: 25px;
 }
