@@ -331,3 +331,12 @@ table {
 .category-boxes .description {
   color: darken($primary, 20%);
 }
+
+.modal-header .modal-close {
+  padding-left: none;
+  margin-left: 1em;
+}
+
+.select-kit.dropdown-select-box .dropdown-select-box-header {
+  border: 2px solid $primary;
+}
