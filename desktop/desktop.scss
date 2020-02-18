@@ -31,8 +31,7 @@
 //add shadow behind list of categories on left in Category and Latest View
 //add shadow behind topics in Latest view
 
-.topic-list,
-.latest-topic-list {
+.topic-list {
   @include boxShadow;
   /* background-color: lighten($secondary, 10%); */
 }
