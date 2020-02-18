@@ -37,10 +37,6 @@ body textarea {
   background-color: rgba(255, 255, 255, 0);
 }
 
-.btn:hover svg {
-  fill: $primary;
-}
-
 .btn-primary .d-icon {
   color: $primary;
 }
@@ -52,8 +48,8 @@ body textarea {
 
 .discourse-no-touch .btn.btn-hover svg,
 .discourse-no-touch .btn:hover svg {
-  color: #fff;
-  fill: #fff;
+  color: $primary;
+  fill: $primary;
 }
 
 .bootbox.modal .modal-footer a.btn-primary {
