@@ -325,3 +325,7 @@ table {
   margin-top: 25px;
   background-color: lighten($secondary, 10%);
 }
+
+.category-boxes .description {
+  color: darken($primary, 5%);
+}
