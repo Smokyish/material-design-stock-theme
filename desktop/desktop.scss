@@ -323,4 +323,5 @@ table {
 
 .latest-topic-list .table-heading, .top-topic-list .table-heading {
   margin-top: 25px;
+  background-color: lighten($secondary, 10%);
 }
