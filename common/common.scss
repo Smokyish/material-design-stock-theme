@@ -37,6 +37,10 @@ body textarea {
   background-color: rgba(255, 255, 255, 0);
 }
 
+.btn:hover svg {
+  fill: $primary;
+}
+
 .btn-primary .d-icon {
   color: $primary;
 }
