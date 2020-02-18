@@ -34,7 +34,7 @@
 .topic-list,
 .latest-topic-list {
   @include boxShadow;
-  background-color: lighten($secondary, 10%);
+  /* background-color: lighten($secondary, 10%); */
 }
 
 //underline navigation links
@@ -279,7 +279,7 @@
 }
 
 tr {
-  border-bottom: 25px solid $secondary;
+  background-color: lighten($secondary, 10%);
 }
 
 .latest-topic-list-item {
@@ -313,4 +313,9 @@ h2.x-title {
 blockquote {
   background-color: darken($secondary, 3%);
   border-left: 2px solid $tertiary;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0 25px;
 }
