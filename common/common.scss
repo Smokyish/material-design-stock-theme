@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,600&display=swap');
 
 html {
   font-family: 'Work Sans';
@@ -84,4 +84,8 @@ body textarea {
 .modal-header .modal-close {
   padding-left: 0 !important;
   margin-left: 1em;
+}
+
+.custom-footer .list span {
+  font-weight: 400;
 }
