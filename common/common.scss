@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: 200;
   font-display: swap;
-  src: url("../fonts/Inter-ExtraLight.woff?v=3.13") format("woff");
+  src: url($Inter-ExtraLight) format("woff");
 }
 
 @font-face {
@@ -11,7 +11,7 @@
   font-style: italic;
   font-weight: 200;
   font-display: swap;
-  src: url("../fonts/Inter-ExtraLightItalic.woff?v=3.13") format("woff");
+  src: url($Inter-ExtraLightItalic) format("woff");
 }
 
 @font-face {
@@ -19,7 +19,7 @@
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url("../fonts/Inter-Light.woff?v=3.13") format("woff");
+  src: url($Inter-Light) format("woff");
 }
 
 @font-face {
@@ -27,7 +27,7 @@
   font-style: italic;
   font-weight: 300;
   font-display: swap;
-  src: url("../fonts/Inter-LightItalic.woff?v=3.13") format("woff");
+  src: url($Inter-LightItalic) format("woff");
 }
 
 @font-face {
@@ -35,7 +35,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("../fonts/Inter-Regular.woff?v=3.13") format("woff");
+  src: url($Inter-Regular) format("woff");
 }
 
 @font-face {
@@ -43,7 +43,7 @@
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: url("../fonts/Inter-Italic.woff?v=3.13") format("woff");
+  src: url($Inter-Italic) format("woff");
 }
 
 @font-face {
@@ -51,7 +51,7 @@
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url("../fonts/Inter-Medium.woff?v=3.13") format("woff");
+  src: url($Inter-Medium) format("woff");
 }
 
 @font-face {
@@ -59,7 +59,7 @@
   font-style: italic;
   font-weight: 500;
   font-display: swap;
-  src: url("../fonts/Inter-MediumItalic.woff?v=3.13") format("woff");
+  src: url($Inter-MediumItalic) format("woff");
 }
 
 @font-face {
@@ -67,7 +67,7 @@
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url("../fonts/Inter-SemiBold.woff?v=3.13") format("woff");
+  src: url($Inter-SemiBold) format("woff");
 }
 
 @font-face {
@@ -75,7 +75,7 @@
   font-style: italic;
   font-weight: 600;
   font-display: swap;
-  src: url("../fonts/Inter-SemiBoldItalic.woff?v=3.13") format("woff");
+  src: url($Inter-SemiBoldItalic) format("woff");
 }
 
 /* Inter font
