@@ -35,7 +35,11 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
+<<<<<<< HEAD
   src: url("$Inter-Regular") format("woff");
+=======
+  src: url($Inter-Regular) format("woff");
+>>>>>>> 1bfa88553c1301c0c5d2f83cf5223759b0b97892
 }
 
 @font-face {
