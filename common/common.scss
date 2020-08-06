@@ -264,6 +264,7 @@ a.title:visited {
 }
 
 .custom-header-links .headerLink a:hover,
+.post-links-container ul li a[href],
 .select-kit.dropdown-select-box.period-chooser .period-chooser-header h2.selected-name .top-date-string,
 .select-kit.dropdown-select-box.period-chooser .period-chooser-row .top-date-string,
 .timeline-container .topic-timeline .now-date,
@@ -271,7 +272,8 @@ a.title:visited {
 .timeline-container .topic-timeline .timeline-ago,
 .topic-map h4,
 .topic-meta-data .post-info a,
-a.topic-featured-link, .post-links-container ul li a[href],  {
+a.topic-featured-link,
+aside.onebox header a[href] {
   color: #c0b0ff;
 }
 
@@ -282,4 +284,51 @@ a.topic-featured-link, .post-links-container ul li a[href],  {
 .category-boxes .category-box-inner,
 .category-boxes-with-topics .category-box-inner {
   border-radius: 0 8px 8px 0;
+}
+
+#create-topic.btn-default {
+  background-color: #2600B6 !important;
+}
+
+.user-menu .quick-access-panel li:focus,
+.user-menu .quick-access-panel li:hover, .discourse-no-touch .sortable:hover {
+  background-color: #151544;
+}
+
+nav.post-controls .actions button.d-hover,
+nav.post-controls .actions button:focus {
+  background: #151544;
+  border-radius: 8px;
+}
+
+aside.onebox {
+  border: 5px solid #151544;
+  border-radius: 8px;
+}
+
+tr {
+  border-bottom: 1px solid #474796;
+}
+
+tbody {
+  border-top: 3px solid #474796;
+}
+
+nav.post-controls .actions a, nav.post-controls .actions button {
+  color: #ededed;
+}
+
+.topic-body {
+  border-top: 1px solid #474796;
+}
+
+.topic-map {
+  background: #151544;
+  border: 1px solid #474796;
+  border-radius: 8px;
+}
+
+.topic-map .buttons .btn, .topic-map section {
+  background: #151544;
+  border: 1px solid #474796;
 }
