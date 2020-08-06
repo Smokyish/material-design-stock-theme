@@ -54,6 +54,7 @@ body textarea {
   color: $primary;
 }
 //remove shadow from a few buttons
+
 #login-link,
 #new-account-link,
 #revision .btn,
@@ -111,7 +112,9 @@ body textarea {
   line-height: 140% !important;
 }
 
-.banner-box h1, .banner-box h2, .banner-box h3 {
+.banner-box h1,
+.banner-box h2,
+.banner-box h3 {
   color: #EDEDED !important;
   font-size: 19px !important;
   line-height: 120% !important;
@@ -123,7 +126,7 @@ tr {
 }
 
 .category-list tbody .category {
-  border-radius: 8px 0px 0px 8px !important;
+  border-radius: 8px 0 0 8px !important;
 }
 
 .column .latest-topic-list-item {
@@ -138,21 +141,21 @@ tr {
 
 .latest-topic-list .table-heading {
   background-color: #18183C !important;
-  border-radius: 8px 0px 0px 8px;
+  border-radius: 8px 0 0 8px;
   line-height: 120%;
   font-size: 16;
   padding-left: 10px;
 }
 
 .category-list th {
-  border-radius: 8px 0px 0px 8px;
+  border-radius: 8px 0 0 8px;
   line-height: 120%;
   font-size: 16;
   padding-left: 10px;
 }
 
 .category-list td.topics {
-  border-radius: 0px 20px 20px 0px !important;
+  border-radius: 0 20px 20px 0 !important;
 }
 
 .list-controls .combo-box .combo-box-header {
@@ -165,14 +168,15 @@ tr {
 }
 
 .category-list tr.category {
-  border-radius: 8px 0px 0px 8px;
+  border-radius: 8px 0 0 8px;
 }
 
 .category-list tr.topics {
-  border-radius: 0px 8px 8px 0px;
+  border-radius: 0 8px 8px 0;
 }
 
-.nav-pills>li.active>a, .nav-pills>li>a.active {
+.nav-pills > li > a.active,
+.nav-pills > li.active > a {
   border-bottom: 3px solid #FF7C4E !important;
 }
 
@@ -189,7 +193,13 @@ tr {
   line-height: 143.6%;
 }
 
-.list-cell, .table-heading, .category-list td, .category-list th, .latest-topic-list .table-heading, .top-topic-list .table-heading, table th {
+.category-list td,
+.category-list th,
+.latest-topic-list .table-heading,
+.list-cell,
+.table-heading,
+.top-topic-list .table-heading,
+table th {
   color: #9C99B1 !important;
 }
 
@@ -213,11 +223,11 @@ tr {
 }
 
 .latest-topic-list-item .main-link .badge-wrapper {
-  margin: 10px 0px 10px 0px;
+  margin: 10px 0;
 }
 
 .category-list .subcategories .badge-wrapper {
-  margin: 10px 0px 10px 0px;
+  margin: 10px 0;
 }
 
 .discourse-tag.box {
@@ -230,7 +240,9 @@ tr {
   font-size: 19;
 }
 
-.topic-list-main-link a.title, .topic-list .main-link a.title, .latest-topic-list-item .main-link a.title {
+.latest-topic-list-item .main-link a.title,
+.topic-list .main-link a.title,
+.topic-list-main-link a.title {
   line-height: 120%;
   font-size: 19;
 }
@@ -249,4 +261,25 @@ a.title {
 
 a.title:visited {
   color: #ededed;
+}
+
+.custom-header-links .headerLink a:hover,
+.select-kit.dropdown-select-box.period-chooser .period-chooser-header h2.selected-name .top-date-string,
+.select-kit.dropdown-select-box.period-chooser .period-chooser-row .top-date-string,
+.timeline-container .topic-timeline .now-date,
+.timeline-container .topic-timeline .start-date,
+.timeline-container .topic-timeline .timeline-ago,
+.topic-map h4,
+.topic-meta-data .post-info a,
+a.topic-featured-link, .post-links-container ul li a[href],  {
+  color: #c0b0ff;
+}
+
+.category-boxes-with-topics .category-box {
+  border-radius: 8px;
+}
+
+.category-boxes .category-box-inner,
+.category-boxes-with-topics .category-box-inner {
+  border-radius: 0 8px 8px 0;
 }
