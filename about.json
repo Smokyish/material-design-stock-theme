@@ -1,21 +1,21 @@
 {
-  "name": "Material Design Theme for Trustlines Forum",
+  "name": "Trustlines Forum Dark UI",
   "about_url": "https://meta.discourse.org/t/material-design-stock-theme/47142",
   "license_url": "https://github.com/discourse/material-design-stock-theme/blob/master/LICENSE.txt",
   "color_schemes": {
-    "Trustlines Dark": {
+    "Trustlines Dark UI": {
       "primary": "fafafa",
-      "secondary": "323232",
-      "tertiary": "F05A55",
-      "quaternary": "F05A55",
-      "header_background": "141414",
-      "header_primary": "ffffff",
+      "secondary": "0A0A2A",
+      "tertiary": "c0b0ff",
+      "quaternary": "EDEDED",
+      "header_background": "0A0A2A",
+      "header_primary": "FFFFFF",
       "highlight": "fafafa",
       "danger": "e45735",
       "success": "009900",
       "love": "fa6c8d"
     },
-    "Trustlines Light": {
+    "Trustlines Light UI": {
       "primary": "141414",
       "secondary": "fafafa",
       "tertiary": "F05A55",

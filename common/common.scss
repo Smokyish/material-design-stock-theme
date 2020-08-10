@@ -1,14 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,600&display=swap');
-
-/* Work Sans font
-    ––––––––––––––––––––––––––––––––––––––––––––––––––––
-    Version : 3.13
-    Website : https://rsms.me/Work Sans/
-    Repo    : https://github.com/rsms/Work Sans
-    Author  : The Work Sans Project Authors
-    License : SIL OPEN FONT LICENSE Version 1.1
-    –––––––––––––––––––––––––––––––––––––––––––––––––––– */
-
 html {
   font-family: 'Work Sans';
   font-weight: 400;
@@ -21,10 +10,14 @@ body textarea {
   font-family: 'Work Sans';
 }
 @mixin boxShadow {
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 0 0 0 rgba(0, 0, 0, 0.12);
+  // Matched from https://material.io/components/cards/
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 @mixin buttonShadow {
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
+  // Matched from https://material.io/components/buttons/
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
 }
 //raise and round buttons
 
@@ -65,6 +58,7 @@ body textarea {
   color: $primary;
 }
 //remove shadow from a few buttons
+
 #login-link,
 #new-account-link,
 #revision .btn,
@@ -116,5 +110,229 @@ body textarea {
 }
 
 .banner-box {
-    background-image: linear-gradient(32deg, #B9E6FA 0%, #FACDCD 10%, #F05A55 100%) !important;
+  background: linear-gradient(164.79deg, #1A007D 8.17%, #7E2100 118.43%) !important;
+  color: #EDEDED !important;
+  font-size: 14px !important;
+  line-height: 140% !important;
+}
+
+.banner-box h1,
+.banner-box h2,
+.banner-box h3 {
+  color: #EDEDED !important;
+  font-size: 19px !important;
+  line-height: 120% !important;
+}
+
+tr {
+  border-radius: 50px !important;
+  background-color: #18183C !important;
+}
+
+.category-list tbody .category {
+  border-radius: 8px 0 0 8px !important;
+}
+
+.column .latest-topic-list-item {
+  background-color: #18183C !important;
+  border-radius: 8px;
+}
+
+.latest-topic-list-item {
+  border-bottom: none;
+  margin-top: 25px !important;
+}
+
+.latest-topic-list .table-heading {
+  background-color: #18183C !important;
+  border-radius: 8px 0 0 8px;
+  line-height: 120%;
+  font-size: 16;
+  padding-left: 10px;
+}
+
+.category-list th {
+  border-radius: 8px 0 0 8px;
+  line-height: 120%;
+  font-size: 16;
+  padding-left: 10px;
+}
+
+.category-list td.topics {
+  border-radius: 0 20px 20px 0 !important;
+}
+
+.list-controls .combo-box .combo-box-header {
+  background-color: #0A0A2A;
+  color: #8181CB;
+  border: 1px solid #8181CB;
+  font-size: 16px;
+  transition: none;
+  border-radius: 8px;
+}
+
+.category-list tr.category {
+  border-radius: 8px 0 0 8px;
+}
+
+.category-list tr.topics {
+  border-radius: 0 8px 8px 0;
+}
+
+.nav-pills > li > a.active,
+.nav-pills > li.active > a {
+  border-bottom: 3px solid #FF7C4E !important;
+}
+
+.badge-wrapper.box span.badge-category-bg {
+  border-radius: 8px;
+  margin-right: 5px;
+  opacity: 0.5;
+}
+
+.badge-category {
+  padding: 3px 10px 5px 5px;
+  font-size: 12px;
+  color: #EDEDED !important;
+  line-height: 143.6%;
+}
+
+.category-list td,
+.category-list th,
+.latest-topic-list .table-heading,
+.list-cell,
+.table-heading,
+.top-topic-list .table-heading,
+table th {
+  color: #9C99B1 !important;
+}
+
+.badge-posts[href] {
+  color: #9C99B1 !important;
+}
+
+.latest-topic-list-item .topic-last-activity a {
+  color: #9C99B1 !important;
+}
+
+.badge-wrapper.box span.badge-category-parent-bg {
+  border-radius: 8px;
+  opacity: 0.8;
+}
+
+.badge-wrapper.box span.badge-category-parent-bg+.badge-category-bg {
+  left: 5px;
+  width: calc(100% - 10px);
+  opacity: 0.5;
+}
+
+.latest-topic-list-item .main-link .badge-wrapper {
+  margin: 10px 0;
+}
+
+.category-list .subcategories .badge-wrapper {
+  margin: 10px 0;
+}
+
+.discourse-tag.box {
+  border-radius: 4px;
+}
+
+.category-list .topics .value {
+  margin-right: 10px;
+  line-height: 120%;
+  font-size: 19;
+}
+
+.latest-topic-list-item .main-link a.title,
+.topic-list .main-link a.title,
+.topic-list-main-link a.title {
+  line-height: 120%;
+  font-size: 19;
+}
+
+.banner-box .section-header .description p {
+  font-family: 'Inter';
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 48px !important;
+  line-height: 120% !important;
+}
+
+a.title {
+  color: #ededed;
+}
+
+a.title:visited {
+  color: #ededed;
+}
+
+.custom-header-links .headerLink a:hover,
+.post-links-container ul li a[href],
+.select-kit.dropdown-select-box.period-chooser .period-chooser-header h2.selected-name .top-date-string,
+.select-kit.dropdown-select-box.period-chooser .period-chooser-row .top-date-string,
+.timeline-container .topic-timeline .now-date,
+.timeline-container .topic-timeline .start-date,
+.timeline-container .topic-timeline .timeline-ago,
+.topic-map h4,
+.topic-meta-data .post-info a,
+a.topic-featured-link,
+aside.onebox header a[href] {
+  color: #c0b0ff;
+}
+
+.category-boxes-with-topics .category-box {
+  border-radius: 8px;
+}
+
+.category-boxes .category-box-inner,
+.category-boxes-with-topics .category-box-inner {
+  border-radius: 0 8px 8px 0;
+}
+
+#create-topic.btn-default {
+  background-color: #2600B6 !important;
+}
+
+.user-menu .quick-access-panel li:focus,
+.user-menu .quick-access-panel li:hover, .discourse-no-touch .sortable:hover {
+  background-color: #151544;
+}
+
+nav.post-controls .actions button.d-hover,
+nav.post-controls .actions button:focus {
+  background: #151544;
+  border-radius: 8px;
+}
+
+aside.onebox {
+  border: 5px solid #151544;
+  border-radius: 8px;
+}
+
+tr {
+  border-bottom: 1px solid #474796;
+}
+
+tbody {
+  border-top: 3px solid #474796;
+}
+
+nav.post-controls .actions a, nav.post-controls .actions button {
+  color: #ededed;
+}
+
+.topic-body {
+  border-top: 1px solid #474796;
+}
+
+.topic-map {
+  background: #151544;
+  border: 1px solid #474796;
+  border-radius: 8px;
+}
+
+.topic-map .buttons .btn, .topic-map section {
+  background: #151544;
+  border: 1px solid #474796;
 }
