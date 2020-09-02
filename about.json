@@ -14,18 +14,6 @@
       "danger": "e45735",
       "success": "009900",
       "love": "fa6c8d"
-    },
-    "Trustlines Light UI": {
-      "primary": "141414",
-      "secondary": "fafafa",
-      "tertiary": "F05A55",
-      "quaternary": "F05A55",
-      "header_background": "ffffff",
-      "header_primary": "141414",
-      "highlight": "141414",
-      "danger": "e45735",
-      "success": "009900",
-      "love": "fa6c8d"
     }
   }
 }
